@@ -194,7 +194,7 @@ useEffect(() => {
 
 **First use case:-** We dont need to convert response into JSON or stuff like that. axios will do that for us.
 
-**After running above code, we error in console -** Access to XMLHttpRequest at 'http://localhost:3000/jokes' from origin 'http://localhost:5173' has been blocked by **CORS policy**: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+**After running above code, we get error in console -** Access to XMLHttpRequest at 'http://localhost:3000/jokes' from origin 'http://localhost:5173' has been blocked by **CORS policy**: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Can you see CORS.
 
